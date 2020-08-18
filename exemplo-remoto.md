@@ -1,5 +1,0 @@
-# Exemplo remoto
-
-```
-git pull
-```
