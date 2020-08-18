@@ -3,3 +3,6 @@
 ```
 $ cargo install
 ```
+
+# Exemplo de uso
+
