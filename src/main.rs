@@ -23,7 +23,7 @@ fn main() {
 
 #[cfg(test)]
 mod tests {
-    use self::Ponto;
+    //    use self::Ponto;
     #[test]
     fn eita_funciona() {
         let p = Ponto.new(2, 3);
