@@ -37,6 +37,6 @@ Faça um verificação se a integração contínua está funcionando e imprima
 
  ### *Issues* (tarefas)
 
-Abra uma *issue* para cada atividade desenvolvida.
+Abra uma *issue* para cada atividade desenvolvida associada a um cartão.
 
 Associe cada *commit* com sua respectiva *issue*.
