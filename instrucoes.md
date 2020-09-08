@@ -1,5 +1,7 @@
 # Instruções para o Projeto 1
 
+**Entrega: 25/9/2020** através de envio de email com o link para o repositório. 
+
 ## Documentação inicial
 
 O arquivo [`README.md`](README.md) deve ser alterado para informar a quem
@@ -8,16 +10,16 @@ do sistema, instalação, Documentação de usuário mais aprofundada.
 
 ## Implementação
 
-No arquivo [src/main.rs](src/main.rs) altere o código de forma a implementar
-uma estrutura (`struct`) para que este possa ser instanciado na função
-principal `main()` e testes possam ser realizados no módulo `tests`.
-Verifique o andamento dos *commits*.
+Usando um projeto de desenvolvimento em qualquer linguagem 
+de programação:
+- Faça alterações;
+- Verifique o andamento dos *commits*;
+- Realize integração contínua (testes) usando o GitHub *Actions*.
 
 - Ao finalizar a implementação faça uma marcação (`tag`) no repositório
 informando algo que faça lembrar o que foi feito ou algum marco
 como por exemplo "v1.0" para indicar que é a versão "1.0".
-- Crie um ramo (*branch*) e faça uma alteração em qualquer tipo de dados
-da estrutura (`struct`).
+- Crie um ramo (*branch*) e faça uma alteração de qualquer tipo.
 - Após as alterações, realize um `merge` com o ramo principal.
 - Marque novamente o estado atual do código.
 
@@ -25,8 +27,6 @@ da estrutura (`struct`).
 
 Documente o código usando o padrão da linguagem de forma que uma documentação
 do que o código realiza e como este foi estrutura seja gerada automaticamente.
-Documente a estrutura de dados (`struct`), a implementação (`impl`) e
-coloque no topo do cabeçalho a ideia geral do programa.
 
 ## Integração contínua
 
