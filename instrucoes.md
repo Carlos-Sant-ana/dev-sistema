@@ -1,6 +1,6 @@
 # Instruções para o Projeto 1
 
-**Entrega: 25/9/2020** através de envio de email com o link para o repositório. 
+**Entrega: 28/9/2020** através de envio de email com o link para o repositório. 
 
 ## Documentação inicial
 
@@ -37,8 +37,6 @@ Faça um verificação se a integração contínua está funcionando e imprima
 
  ### *Issues* (tarefas)
 
-Abra uma *issue* para cada atividade desenvolvida. Conecte sua conta GitHub
-com a ferramenta [duefocus](https://duefocus.com/) para controlar o
-tempo gasto em cada atividade.
+Abra uma *issue* para cada atividade desenvolvida.
 
 Associe cada *commit* com sua respectiva *issue*.
