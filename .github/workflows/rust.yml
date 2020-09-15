@@ -31,4 +31,3 @@ jobs:
         publish_dir: ./target/doc
         external_repository: adriano.holanda/prof-holanda.github.io
         publish_branch: master
-        destination_dir: dev_sistema
