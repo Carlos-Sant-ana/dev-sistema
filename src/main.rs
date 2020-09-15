@@ -17,6 +17,7 @@ struct Retangulo {
 }
 
 // Implementações para o Retangulo.
+// FIXME: insert assert para as coordenadas.
 #[allow(dead_code)]
 impl Retangulo {
     /// Calcula a área do retangulo pela multiplicação 
