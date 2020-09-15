@@ -24,8 +24,8 @@ impl Retangulo {
     /// das diferenças entre as coordenadas x e y.
     /// Retorna um inteiro como resultado do cálculo da área.
     fn area(self) -> i64 {
-        let dx = self.piso_esquerda.x - self.teto_direita.x;
-        let dy = self.piso_esquerda.y - self.teto_direita.y;
+        let dx = self.teto_direita.x - self.piso_esquerda.x;
+        let dy = self.teto_direita.y - self.piso_esquerda.y;
 
         return dx*dy;
     }
