@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["main",""]],"struct":[["Ponto","Representa a figura geométrica ponto onde x: coordenada x y: coordenada y"],["Retangulo","Representa a figura geométrica retângulo onde piso_esquerda: é o ponto mais a esquerda e próximo do piso, teto_direita: é o ponto mais a direito e próximo do teto (topo)."]]});
