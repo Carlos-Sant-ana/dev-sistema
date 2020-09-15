@@ -77,8 +77,8 @@
     <span class="doccomment">/// das diferenças entre as coordenadas x e y.</span>
     <span class="doccomment">/// Retorna um inteiro como resultado do cálculo da área.</span>
     <span class="kw">fn</span> <span class="ident">area</span>(<span class="self">self</span>) <span class="op">-</span><span class="op">&gt;</span> <span class="ident">i64</span> {
-        <span class="kw">let</span> <span class="ident">dx</span> <span class="op">=</span> <span class="self">self</span>.<span class="ident">piso_esquerda</span>.<span class="ident">x</span> <span class="op">-</span> <span class="self">self</span>.<span class="ident">teto_direita</span>.<span class="ident">x</span>;
-        <span class="kw">let</span> <span class="ident">dy</span> <span class="op">=</span> <span class="self">self</span>.<span class="ident">piso_esquerda</span>.<span class="ident">y</span> <span class="op">-</span> <span class="self">self</span>.<span class="ident">teto_direita</span>.<span class="ident">y</span>;
+        <span class="kw">let</span> <span class="ident">dx</span> <span class="op">=</span> <span class="self">self</span>.<span class="ident">teto_direita</span>.<span class="ident">x</span> <span class="op">-</span> <span class="self">self</span>.<span class="ident">piso_esquerda</span>.<span class="ident">x</span>;
+        <span class="kw">let</span> <span class="ident">dy</span> <span class="op">=</span> <span class="self">self</span>.<span class="ident">teto_direita</span>.<span class="ident">y</span> <span class="op">-</span> <span class="self">self</span>.<span class="ident">piso_esquerda</span>.<span class="ident">y</span>;
 
         <span class="kw">return</span> <span class="ident">dx</span><span class="kw-2">*</span><span class="ident">dy</span>;
     }
