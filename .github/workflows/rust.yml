@@ -29,5 +29,3 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./target/doc
-        destination_dir: dev_sistema 
-        force_orphan: true
