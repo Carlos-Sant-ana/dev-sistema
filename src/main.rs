@@ -25,7 +25,7 @@ impl Retangulo {
     /// Retorna um inteiro como resultado do cálculo da área.
     fn area(self) -> i64 {
         let dx = self.teto_direita.x - self.piso_esquerda.x;
-        let dy = self.teto_direita.y - self.piso_esquerda.x;
+        let dy = self.teto_direita.y - self.piso_esquerda.y;
 
         return dx*dy;
     }
@@ -40,7 +40,7 @@ mod tests {
     use crate::{Ponto, Retangulo};
 
     #[test]
-    fn teste_area() {
+    fn teste_retangulo_area() {
         let pe = Ponto{x: 1, y: 2};
         let td = Ponto{x: 3, y: 5};
         let ret = Retangulo {
