@@ -25,7 +25,7 @@ impl Retangulo {
     /// Retorna um inteiro como resultado do cálculo da área.
     fn area(self) -> i64 {
         let dx = self.teto_direita.x - self.piso_esquerda.x;
-        let dy = self.teto_direita.y - self.piso_esquerda.y;
+        let dy = self.teto_direita.y - self.piso_esquerda.x;
 
         return dx*dy;
     }
@@ -47,6 +47,7 @@ mod tests {
                     piso_esquerda: pe,
                     teto_direita: td,    
                 };
-        assert_eq!(ret.area(), 6);
+        let area = ret.area();
+        assert_eq!(area, 6);
     }
 }
