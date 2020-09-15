@@ -27,7 +27,7 @@ impl Retangulo {
         let dx = self.piso_esquerda.x - self.teto_direita.x;
         let dy = self.piso_esquerda.y - self.teto_direita.y;
 
-        return dx*dy;
+        return dx*dx;
     }
 }
 
