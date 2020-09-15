@@ -50,6 +50,7 @@
 <span id="50">50</span>
 <span id="51">51</span>
 <span id="52">52</span>
+<span id="53">53</span>
 </pre><div class="example-wrap"><pre class="rust ">
 <span class="doccomment">/// Representa a figura geométrica ponto onde</span>
 <span class="doccomment">/// x: coordenada x</span>
@@ -93,14 +94,15 @@
     <span class="kw">use</span> <span class="kw">crate</span>::{<span class="ident">Ponto</span>, <span class="ident">Retangulo</span>};
 
     <span class="attribute">#[<span class="ident">test</span>]</span>
-    <span class="kw">fn</span> <span class="ident">teste_area</span>() {
+    <span class="kw">fn</span> <span class="ident">teste_retangulo_area</span>() {
         <span class="kw">let</span> <span class="ident">pe</span> <span class="op">=</span> <span class="ident">Ponto</span>{<span class="ident">x</span>: <span class="number">1</span>, <span class="ident">y</span>: <span class="number">2</span>};
         <span class="kw">let</span> <span class="ident">td</span> <span class="op">=</span> <span class="ident">Ponto</span>{<span class="ident">x</span>: <span class="number">3</span>, <span class="ident">y</span>: <span class="number">5</span>};
         <span class="kw">let</span> <span class="ident">ret</span> <span class="op">=</span> <span class="ident">Retangulo</span> {
                     <span class="ident">piso_esquerda</span>: <span class="ident">pe</span>,
                     <span class="ident">teto_direita</span>: <span class="ident">td</span>,    
                 };
-        <span class="macro">assert_eq</span><span class="macro">!</span>(<span class="ident">ret</span>.<span class="ident">area</span>(), <span class="number">6</span>);
+        <span class="kw">let</span> <span class="ident">area</span> <span class="op">=</span> <span class="ident">ret</span>.<span class="ident">area</span>();
+        <span class="macro">assert_eq</span><span class="macro">!</span>(<span class="ident">area</span>, <span class="number">6</span>);
     }
 }
 </pre></div>
