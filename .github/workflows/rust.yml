@@ -29,3 +29,6 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./target/doc
+        external_repository: adriano.holanda/prof-holanda.github.io
+        publish_branch: master
+        destination_dir: dev_sistema
