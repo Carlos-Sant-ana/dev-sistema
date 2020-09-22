@@ -15,7 +15,7 @@ struct Retangulo {
     piso_esquerda: Ponto,
     teto_direita: Ponto,
 }
-
+//alteração simples
 // Implementações para o Retangulo.
 // FIXME: insert assert para as coordenadas.
 #[allow(dead_code)]
